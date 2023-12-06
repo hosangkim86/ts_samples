@@ -14,8 +14,13 @@ function start(callback: (count:number) => void) {
     }, 1000);
 }
 
+function calculate(price: number, amount:number) {
+
+}
+
 // run main
 start(handleRandom);
+// start(calculate);
 
 //Unit Test
 // handleRandom(1);
