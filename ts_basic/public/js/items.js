@@ -26,7 +26,7 @@ var item3 = {
 var items = [item1, item2, item3];
 console.log(items);
 var borderPrice = 350;
-var filterItems = items.filter(function (item) { return item.price <= borderPrice; });
+var filterItems = items.filter((item) => item.price <= borderPrice);
 console.log(filterItems);
 //function
 // function calculateTotalPrice(price:number, amount:number): number {
@@ -39,12 +39,12 @@ console.log(filterItems);
 //    return totalPrice;
 // }
 //arrow function
-var calculateTotalPrice = function (price, amount) {
+const calculateTotalPrice = (price, amount) => {
     var totalPrice = price * amount;
     return totalPrice;
 };
 function findItem(id) {
-    var result = items.find(function (item) { return item.id == id; });
+    var result = items.find((item) => item.id == id);
     return result;
     // if (result) {
     //     return result;
