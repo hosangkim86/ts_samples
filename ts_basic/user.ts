@@ -29,5 +29,17 @@ console.log(itemNames);
 
 //オブジェクト配列
 var item1 = {
-    
+    id: 1,
+    name: "コーヒー",
+    price: 350,
+}
+var item2 = {
+    id: 2,
+    name: "紅茶",
+    price: 400,
+}
+var item3 = {
+    id: 3,
+    name: "ほうじ茶",
+    price: 300,
 }
