@@ -14,8 +14,9 @@ function start(callback: (count:number) => void) {
     }, 1000);
 }
 
-function calculate(price: number, amount:number) {
-
+function calculate(price: number, amount:number): number {
+    var result = price * amount;
+    return result;
 }
 
 // run main
