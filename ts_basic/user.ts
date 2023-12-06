@@ -22,3 +22,12 @@ var user = {
 }
 // user.name.first = 1;
 console.log(user);
+
+// 配列
+var itemNames:string[] = ["コーヒー", "紅茶", "ほうじ茶"];
+console.log(itemNames);
+
+//オブジェクト配列
+var item1 = {
+    
+}
