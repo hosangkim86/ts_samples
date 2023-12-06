@@ -14,5 +14,8 @@ function start(callback) {
     }, 1000);
 }
 
+// run main
+start(handleRandom);
+
 //Unit Test
 // handleRandom(1);
