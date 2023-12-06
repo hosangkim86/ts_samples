@@ -50,3 +50,7 @@ function findItem(id:number) {
 var amount = 5;
 var totalPrice = calculateTotalPrice(item1.price, amount);
 console.log(totalPrice);
+
+var itemId = 5;
+var selectItem = findItem(itemId);
+console.log(selectItem);
