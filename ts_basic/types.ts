@@ -13,6 +13,7 @@ export type Item = {
     id: number;
     name: string;
     price: number;
+    isSale: boolean;
 }
 
 // export interface User {
